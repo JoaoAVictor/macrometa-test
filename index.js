@@ -7,7 +7,7 @@ async function main(){
     // Criando chave da api
     try{
         await client.createApiKey(keyid);
-    }
+    } 
     catch(e){
         console.log('API Creation Failed: ', e);
     }
